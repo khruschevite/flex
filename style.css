@@ -118,3 +118,64 @@ img {
     color: #3882f6;
     border-radius: 8px;
 }
+
+.quote {
+    padding: 100px 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #E5E7EB;
+}
+
+.lorem {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.background {
+    background: #3882f6;
+    border-radius: 8px;
+}
+
+.thing {
+    display: flex;
+    padding: 50px 0;
+    flex: 1;
+}
+
+.call {
+    justify-content: center;
+    align-items: center;
+}
+
+.big {
+    font-size: 20px;
+    font-weight: bold;
+    color: #E5E7EB;
+}
+
+.blah {
+    font-size: 16px;
+    color: #E5E7EB;
+}
+
+.end {
+    justify-content: flex-end;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+}
