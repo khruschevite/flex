@@ -2,12 +2,12 @@ body{
     display: flex;
     flex-direction: column;
     font-family: Roboto, sans-serif;
-    
+    margin: 0;
 }
 
 .body {
     padding: 0 100px;
-    margin: 0;
+    
 }
 
 .hero {
@@ -82,4 +82,39 @@ button {
 img {
     width: 100vh;
     
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    gap: 16px;
+    text-align: center;
+}
+
+.box_info{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.box {
+    max-width: 100px;
+}
+
+.illustration {
+    border: solid;
+    width: 100px;
+    height: 100px;
+    color: #3882f6;
+    border-radius: 8px;
 }
