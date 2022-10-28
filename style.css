@@ -41,3 +41,45 @@ a {
     text-decoration: none;
     color: #E5E7EB;
 }
+
+.container {
+    display: flex;
+    padding: 50px 0;
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+
+.main_title {
+    flex-wrap: wrap;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.subtext {
+    flex-wrap: wrap;    
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    border: none;
+    font-family: Roboto, sans-serif;
+    border-radius: 8px;
+    padding: 8px 24px;
+}
+
+img {
+    width: 100vh;
+    
+}
